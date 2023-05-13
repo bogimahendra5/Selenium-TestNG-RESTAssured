@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="testautomation.qaengineer.AppTest2">
+        <methods>
+          <include name="quitChromeDriver"/>
+          <include name="LoginValid"/>
+          <include name="createChromeDriver"/>
+          <include name="LoginPassInvalid"/>
+        </methods>
+      </class> <!-- testautomation.qaengineer.AppTest2 -->
+      <class name="testautomation.qaengineer.AppTest">
+        <methods>
+          <include name="LoginValid"/>
+          <include name="quitChromeDriver"/>
+          <include name="LoginPassInvalid"/>
+          <include name="createChromeDriver"/>
+        </methods>
+      </class> <!-- testautomation.qaengineer.AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
