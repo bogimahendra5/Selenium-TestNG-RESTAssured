@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.179 sec <<< FAILURE! - in TestSuite
-CekTodosCompleted(testautomation.qaengineer.GraphQlTest)  Time elapsed: 9.113 sec  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data.users[1].todos[1].title doesn't match.
-Expected: Test
-  Actual: null
-
-	at testautomation.qaengineer.GraphQlTest.CekTodosCompleted(GraphQlTest.java:31)
-
-getUsersName(testautomation.qaengineer.GraphQlTest)  Time elapsed: 1.508 sec  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data.users[1].name doesn't match.
-Expected: dassad
-  Actual: null
-
-	at testautomation.qaengineer.GraphQlTest.getUsersName(GraphQlTest.java:48)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.569 sec - in TestSuite

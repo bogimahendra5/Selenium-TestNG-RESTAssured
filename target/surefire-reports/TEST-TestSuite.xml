@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.179" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.569" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.18\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/bogim/eclipse-workspace/qaengineer"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\bogim\Downloads\Compressed\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\bogim\eclipse-workspace\qaengineer"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="ID"/>
@@ -17,8 +18,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\bogim\eclipse-workspace\qaengineer"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\bogim\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
@@ -26,191 +26,45 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="suiteXmlFile" value="testng.xml"/>
-    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.9.1/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\bogim\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf858048846554417983.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\bogim\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bogim\bin;C:\Program Files\Java\jdk-11.0.18\bin;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.1\bin;C:\Program Files\OpenJDK\jdk-11.0.18.10-hotspot\bin;C:\Users\bogim\AppData\Local\Microsoft\WindowsApps;C:\Users\bogim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bogim\AppData\Local\scoop\shims;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="maven.conf" value="C:/Program Files/apache-maven-3.9.1/conf"/>
+    <property name="java.library.path" value="C:\Users\bogim\Downloads\Compressed\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/bogim/Downloads/Compressed/eclipse-java-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/bogim/Downloads/Compressed/eclipse-java-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Java\jdk-11.0.18\bin;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.1\bin;C:\Program Files\OpenJDK\jdk-11.0.18.10-hotspot\bin;C:\Users\bogim\AppData\Local\Microsoft\WindowsApps;C:\Users\bogim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bogim\AppData\Local\scoop\shims;C:\Users\bogim\Downloads\Compressed\eclipse-java-2022-12-R-win32-x86_64\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.9.1/lib/jansi-native"/>
     <property name="user.home" value="C:\Users\bogim"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
     <property name="user.name" value="bogim"/>
-    <property name="java.class.path" value="C:/Program Files/apache-maven-3.9.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\bogim\Downloads\Compressed\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=testng.xml -X"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.18"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always clean test -DsuiteXmlFile=testng.xml -X"/>
+    <property name="java.home" value="C:\Users\bogim\Downloads\Compressed\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.18"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.1"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\bogim\eclipse-workspace\qaengineer\EMBEDDED"/>
+    <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2023-01-17"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="52843"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="CekTodosCompleted" classname="testautomation.qaengineer.GraphQlTest" time="9.113">
-    <failure message="1 expectation failed.&#10;JSON path data.users[1].todos[1].title doesn&apos;t match.&#10;Expected: Test&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
-1 expectation failed.
-JSON path data.users[1].todos[1].title doesn't match.
-Expected: Test
-  Actual: null
-
-	at testautomation.qaengineer.GraphQlTest.CekTodosCompleted(GraphQlTest.java:31)
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-Request method:	POST
-Request URI:	https://hasura.io/learn/graphql
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9FWTJSVGM1UlVOR05qSXhSRUV5TURJNFFUWXdNekZETWtReU1EQXdSVUV4UVVRM05EazFNQSJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtdXNlci1pZCI6ImF1dGgwfDY0NTUzZmJjMWM1ODE0MTFkODUwZWY0ZiJ9LCJuaWNrbmFtZSI6ImJvZ2ltYWhlbmRyYTI3IiwibmFtZSI6ImJvZ2ltYWhlbmRyYTI3QGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jOWIwYmVjNjk3Yzc1MmIwMDhkMTZkZWEyNzkzZTM2MT9zPTQ4MCZyPXBnJmQ9aHR0cHMlM0ElMkYlMkZjZG4uYXV0aDAuY29tJTJGYXZhdGFycyUyRmJvLnBuZyIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE1VDE2OjM2OjQzLjUxN1oiLCJpc3MiOiJodHRwczovL2dyYXBocWwtdHV0b3JpYWxzLmF1dGgwLmNvbS8iLCJhdWQiOiJQMzhxbkZvMWxGQVFKcnprdW4tLXdFenFsalZOR2NXVyIsImlhdCI6MTY4NDE2ODYwNCwiZXhwIjoxNjg0MjA0NjA0LCJzdWIiOiJhdXRoMHw2NDU1M2ZiYzFjNTgxNDExZDg1MGVmNGYiLCJhdF9oYXNoIjoiMXVkR2Q5QlhRaV84R245MGxEeFduUSIsInNpZCI6IlVkbVpfazBHWDhOcnA0U3gzWHNNZEtWTXVsV21nd2FrIiwibm9uY2UiOiJkUFF3ejlPSjBjRVV3VjhJN1Y4NkZLQ25LQzc3SUNFQiJ9.Bl6yQDXatlGYLCc6rHOfZxFoP4x_3srkcHD8vkfOufC32RxUL4VbTWzt39089X084LA7YZpHlgh8nk5eDFSqQQtSkdf7YovQWRqpI3jLV84i1v9tac7T9fhfsf8oV1hW3hX5i4KjaZr2Jzp6pszJ7YMEjqEj0ruxO9fgwtG7Pz7wJNIlWbwMNNjLkImTG17-goj8CMm0wFhoL0kk08NPNXnP_UoHyF75AZxlasBKiKd_WUOgfXFKQ5FbEYP2zUaiwIXvkBmzrlebY-2rzd-VtVtR4n_kwQaNe_HXus4u5Si6nTOxDb526D1drF3PDFXVkckhauGsCTLJfWDyJ2IICQ
-				Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "query": "{\n  users {\n    name\n    todos {\n      title\n    }\n  }\n}\n",
-    "variables": null
-}
-Request method:	POST
-Request URI:	https://hasura.io/learn/graphql
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9FWTJSVGM1UlVOR05qSXhSRUV5TURJNFFUWXdNekZETWtReU1EQXdSVUV4UVVRM05EazFNQSJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtdXNlci1pZCI6ImF1dGgwfDY0NTUzZmJjMWM1ODE0MTFkODUwZWY0ZiJ9LCJuaWNrbmFtZSI6ImJvZ2ltYWhlbmRyYTI3IiwibmFtZSI6ImJvZ2ltYWhlbmRyYTI3QGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jOWIwYmVjNjk3Yzc1MmIwMDhkMTZkZWEyNzkzZTM2MT9zPTQ4MCZyPXBnJmQ9aHR0cHMlM0ElMkYlMkZjZG4uYXV0aDAuY29tJTJGYXZhdGFycyUyRmJvLnBuZyIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE1VDE2OjM2OjQzLjUxN1oiLCJpc3MiOiJodHRwczovL2dyYXBocWwtdHV0b3JpYWxzLmF1dGgwLmNvbS8iLCJhdWQiOiJQMzhxbkZvMWxGQVFKcnprdW4tLXdFenFsalZOR2NXVyIsImlhdCI6MTY4NDE2ODYwNCwiZXhwIjoxNjg0MjA0NjA0LCJzdWIiOiJhdXRoMHw2NDU1M2ZiYzFjNTgxNDExZDg1MGVmNGYiLCJhdF9oYXNoIjoiMXVkR2Q5QlhRaV84R245MGxEeFduUSIsInNpZCI6IlVkbVpfazBHWDhOcnA0U3gzWHNNZEtWTXVsV21nd2FrIiwibm9uY2UiOiJkUFF3ejlPSjBjRVV3VjhJN1Y4NkZLQ25LQzc3SUNFQiJ9.Bl6yQDXatlGYLCc6rHOfZxFoP4x_3srkcHD8vkfOufC32RxUL4VbTWzt39089X084LA7YZpHlgh8nk5eDFSqQQtSkdf7YovQWRqpI3jLV84i1v9tac7T9fhfsf8oV1hW3hX5i4KjaZr2Jzp6pszJ7YMEjqEj0ruxO9fgwtG7Pz7wJNIlWbwMNNjLkImTG17-goj8CMm0wFhoL0kk08NPNXnP_UoHyF75AZxlasBKiKd_WUOgfXFKQ5FbEYP2zUaiwIXvkBmzrlebY-2rzd-VtVtR4n_kwQaNe_HXus4u5Si6nTOxDb526D1drF3PDFXVkckhauGsCTLJfWDyJ2IICQ
-				Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "query": "{\n  users {\n    name\n    todos {\n      title\n    }\n  }\n}\n",
-    "variables": null
-}
-HTTP/1.1 200 OK
-Date: Wed, 17 May 2023 13:33:09 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-CF-Cache-Status: DYNAMIC
-Content-Security-Policy: upgrade-insecure-requests
-Referrer-Policy: strict-origin-when-cross-origin
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-XSS-Protection: 0
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 7c8c3b022ac73f6a-SIN
-
-{
-    "errors": [
-        {
-            "extensions": {
-                "code": "access-denied",
-                "path": "$"
-            },
-            "message": "Authentication hook unauthorized this request"
-        }
-    ]
-}
-]]></system-out>
-    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-]]></system-err>
-  </testcase>
-  <testcase name="getUsersName" classname="testautomation.qaengineer.GraphQlTest" time="1.508">
-    <failure message="1 expectation failed.&#10;JSON path data.users[1].name doesn&apos;t match.&#10;Expected: dassad&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
-1 expectation failed.
-JSON path data.users[1].name doesn't match.
-Expected: dassad
-  Actual: null
-
-	at testautomation.qaengineer.GraphQlTest.getUsersName(GraphQlTest.java:48)
-</failure>
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://hasura.io/learn/graphql
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9FWTJSVGM1UlVOR05qSXhSRUV5TURJNFFUWXdNekZETWtReU1EQXdSVUV4UVVRM05EazFNQSJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtdXNlci1pZCI6ImF1dGgwfDY0NTUzZmJjMWM1ODE0MTFkODUwZWY0ZiJ9LCJuaWNrbmFtZSI6ImJvZ2ltYWhlbmRyYTI3IiwibmFtZSI6ImJvZ2ltYWhlbmRyYTI3QGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jOWIwYmVjNjk3Yzc1MmIwMDhkMTZkZWEyNzkzZTM2MT9zPTQ4MCZyPXBnJmQ9aHR0cHMlM0ElMkYlMkZjZG4uYXV0aDAuY29tJTJGYXZhdGFycyUyRmJvLnBuZyIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE1VDE2OjM2OjQzLjUxN1oiLCJpc3MiOiJodHRwczovL2dyYXBocWwtdHV0b3JpYWxzLmF1dGgwLmNvbS8iLCJhdWQiOiJQMzhxbkZvMWxGQVFKcnprdW4tLXdFenFsalZOR2NXVyIsImlhdCI6MTY4NDE2ODYwNCwiZXhwIjoxNjg0MjA0NjA0LCJzdWIiOiJhdXRoMHw2NDU1M2ZiYzFjNTgxNDExZDg1MGVmNGYiLCJhdF9oYXNoIjoiMXVkR2Q5QlhRaV84R245MGxEeFduUSIsInNpZCI6IlVkbVpfazBHWDhOcnA0U3gzWHNNZEtWTXVsV21nd2FrIiwibm9uY2UiOiJkUFF3ejlPSjBjRVV3VjhJN1Y4NkZLQ25LQzc3SUNFQiJ9.Bl6yQDXatlGYLCc6rHOfZxFoP4x_3srkcHD8vkfOufC32RxUL4VbTWzt39089X084LA7YZpHlgh8nk5eDFSqQQtSkdf7YovQWRqpI3jLV84i1v9tac7T9fhfsf8oV1hW3hX5i4KjaZr2Jzp6pszJ7YMEjqEj0ruxO9fgwtG7Pz7wJNIlWbwMNNjLkImTG17-goj8CMm0wFhoL0kk08NPNXnP_UoHyF75AZxlasBKiKd_WUOgfXFKQ5FbEYP2zUaiwIXvkBmzrlebY-2rzd-VtVtR4n_kwQaNe_HXus4u5Si6nTOxDb526D1drF3PDFXVkckhauGsCTLJfWDyJ2IICQ
-				Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "query": "{\n  users(limit:5) {\n    name\n  }\n}\n",
-    "variables": null
-}
-Request method:	POST
-Request URI:	https://hasura.io/learn/graphql
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9FWTJSVGM1UlVOR05qSXhSRUV5TURJNFFUWXdNekZETWtReU1EQXdSVUV4UVVRM05EazFNQSJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtdXNlci1pZCI6ImF1dGgwfDY0NTUzZmJjMWM1ODE0MTFkODUwZWY0ZiJ9LCJuaWNrbmFtZSI6ImJvZ2ltYWhlbmRyYTI3IiwibmFtZSI6ImJvZ2ltYWhlbmRyYTI3QGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jOWIwYmVjNjk3Yzc1MmIwMDhkMTZkZWEyNzkzZTM2MT9zPTQ4MCZyPXBnJmQ9aHR0cHMlM0ElMkYlMkZjZG4uYXV0aDAuY29tJTJGYXZhdGFycyUyRmJvLnBuZyIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE1VDE2OjM2OjQzLjUxN1oiLCJpc3MiOiJodHRwczovL2dyYXBocWwtdHV0b3JpYWxzLmF1dGgwLmNvbS8iLCJhdWQiOiJQMzhxbkZvMWxGQVFKcnprdW4tLXdFenFsalZOR2NXVyIsImlhdCI6MTY4NDE2ODYwNCwiZXhwIjoxNjg0MjA0NjA0LCJzdWIiOiJhdXRoMHw2NDU1M2ZiYzFjNTgxNDExZDg1MGVmNGYiLCJhdF9oYXNoIjoiMXVkR2Q5QlhRaV84R245MGxEeFduUSIsInNpZCI6IlVkbVpfazBHWDhOcnA0U3gzWHNNZEtWTXVsV21nd2FrIiwibm9uY2UiOiJkUFF3ejlPSjBjRVV3VjhJN1Y4NkZLQ25LQzc3SUNFQiJ9.Bl6yQDXatlGYLCc6rHOfZxFoP4x_3srkcHD8vkfOufC32RxUL4VbTWzt39089X084LA7YZpHlgh8nk5eDFSqQQtSkdf7YovQWRqpI3jLV84i1v9tac7T9fhfsf8oV1hW3hX5i4KjaZr2Jzp6pszJ7YMEjqEj0ruxO9fgwtG7Pz7wJNIlWbwMNNjLkImTG17-goj8CMm0wFhoL0kk08NPNXnP_UoHyF75AZxlasBKiKd_WUOgfXFKQ5FbEYP2zUaiwIXvkBmzrlebY-2rzd-VtVtR4n_kwQaNe_HXus4u5Si6nTOxDb526D1drF3PDFXVkckhauGsCTLJfWDyJ2IICQ
-				Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "query": "{\n  users(limit:5) {\n    name\n  }\n}\n",
-    "variables": null
-}
-HTTP/1.1 200 OK
-Date: Wed, 17 May 2023 13:33:13 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-CF-Cache-Status: DYNAMIC
-Content-Security-Policy: upgrade-insecure-requests
-Referrer-Policy: strict-origin-when-cross-origin
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-XSS-Protection: 0
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 7c8c3b1a4e7eab53-SIN
-
-{
-    "errors": [
-        {
-            "extensions": {
-                "code": "access-denied",
-                "path": "$"
-            },
-            "message": "Authentication hook unauthorized this request"
-        }
-    ]
-}
-]]></system-out>
-  </testcase>
+  <testcase name="CekTodosCompleted" classname="testautomation.qaengineer.GraphQlTest" time="6.968"/>
+  <testcase name="getUsersName" classname="testautomation.qaengineer.GraphQlTest" time="0.883"/>
+  <testcase name="LoginPassInvalid" classname="testautomation.qaengineer.AppTest2" time="0.97"/>
+  <testcase name="LoginUsernameNull" classname="testautomation.qaengineer.AppTest2" time="1.025"/>
+  <testcase name="LoginValid" classname="testautomation.qaengineer.AppTest2" time="0.926"/>
 </testsuite>

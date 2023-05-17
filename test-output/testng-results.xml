@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-17T20:39:28 WIB" name="Default suite" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7825">
+  <suite started-at="2023-05-17T20:56:05 WIB" name="Default suite" finished-at="2023-05-17T20:56:38 WIB" duration-ms="33133">
     <groups>
     </groups>
-    <test started-at="2023-05-17T20:39:28 WIB" name="Default test" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7825">
-      <class name="testautomation.qaengineer.GraphQlTest">
-        <test-method signature="CekTodosCompleted()[pri:0, instance:testautomation.qaengineer.GraphQlTest@b4711e2]" started-at="2023-05-17T20:39:28 WIB" name="CekTodosCompleted" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7626" status="PASS">
+    <test started-at="2023-05-17T20:56:05 WIB" name="Default test" finished-at="2023-05-17T20:56:38 WIB" duration-ms="33133">
+      <class name="testautomation.qaengineer.CommonPageTest">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:05 WIB" name="createChromeDriver" finished-at="2023-05-17T20:56:17 WIB" duration-ms="11765" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CekTodosCompleted -->
-      </class> <!-- testautomation.qaengineer.GraphQlTest -->
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testJS()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:17 WIB" name="testJS" finished-at="2023-05-17T20:56:21 WIB" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJS -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:21 WIB" name="quitChromeDriver" finished-at="2023-05-17T20:56:21 WIB" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:21 WIB" name="createChromeDriver" finished-at="2023-05-17T20:56:26 WIB" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testSwitching()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:26 WIB" name="testSwitching" finished-at="2023-05-17T20:56:37 WIB" duration-ms="10797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitching -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:testautomation.qaengineer.CommonPageTest@6af9fcb2]" started-at="2023-05-17T20:56:37 WIB" name="quitChromeDriver" finished-at="2023-05-17T20:56:38 WIB" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- testautomation.qaengineer.CommonPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
