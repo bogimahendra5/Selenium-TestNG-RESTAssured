@@ -1,7 +1,7 @@
 #surefire_0
-#Sun May 07 14:59:35 ICT 2023
+#Wed May 17 20:32:51 ICT 2023
+basedir=C\:\\Users\\bogim\\eclipse-workspace\\qaengineer
 user.dir=C\:\\Users\\bogim\\eclipse-workspace\\qaengineer
 suiteXmlFile=testng.xml
 env=stage
 localRepository=C\:\\Users\\bogim\\.m2\\repository
-basedir=C\:\\Users\\bogim\\eclipse-workspace\\qaengineer

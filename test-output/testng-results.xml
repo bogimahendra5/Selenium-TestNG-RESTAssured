@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-07T16:28:33 WIB" name="Default suite" finished-at="2023-05-07T16:28:40 WIB" duration-ms="7139">
+  <suite started-at="2023-05-17T20:39:28 WIB" name="Default suite" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7825">
     <groups>
     </groups>
-    <test started-at="2023-05-07T16:28:33 WIB" name="Default test" finished-at="2023-05-07T16:28:40 WIB" duration-ms="7139">
+    <test started-at="2023-05-17T20:39:28 WIB" name="Default test" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7825">
       <class name="testautomation.qaengineer.GraphQlTest">
-        <test-method signature="CekTodosCompleted()[pri:0, instance:testautomation.qaengineer.GraphQlTest@b4711e2]" started-at="2023-05-07T16:28:33 WIB" name="CekTodosCompleted" finished-at="2023-05-07T16:28:40 WIB" duration-ms="6995" status="PASS">
+        <test-method signature="CekTodosCompleted()[pri:0, instance:testautomation.qaengineer.GraphQlTest@b4711e2]" started-at="2023-05-17T20:39:28 WIB" name="CekTodosCompleted" finished-at="2023-05-17T20:39:35 WIB" duration-ms="7626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CekTodosCompleted -->
